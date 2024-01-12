@@ -7,7 +7,7 @@ def base_10_to_2(n):
 	return l[::-1]
 
 p = base_10_to_2(24)
-
+print(p)
 
 
 def base_10_to_8(n):
@@ -19,7 +19,7 @@ def base_10_to_8(n):
 	return l[::-1]
 
 p = base_10_to_8(73)
-
+print(p)
 
 
 def base_10_to_16(n):
@@ -33,3 +33,5 @@ def base_10_to_16(n):
 	return l[::-1]
 
 p = base_10_to_16(73.4)
+print(p)
+
