@@ -15,7 +15,7 @@ def base_10_to_2(n):
 
 	while dec_n > 0:
 		dec_n *= 2
-		int_n = int(dec_n)
+		int_n = int(dec_n)	
 		binary_dec.append(int_n)
 		dec_n -= int_n
 
