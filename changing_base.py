@@ -20,8 +20,8 @@ def base_10_to_2(n):
 
 	whole_binary = binary_int + ["_"] + binary_dec
 	whole_binary_v = [""]
-
-	return whole_binary_v
+		
+	return whole_binary_v	
 
 def base_10_to_8(n):
 	whole_n = int(n)
