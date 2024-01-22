@@ -19,8 +19,9 @@ def base_10_to_2(n):
 		dec_n -= int_n
 
 	whole_binary = binary_int + ["_"] + binary_dec
+	whole_binary_v = [""]
 
-	return whole_binary
+	return whole_binary_v
 
 def base_10_to_8(n):
 	whole_n = int(n)
@@ -43,18 +44,6 @@ def base_10_to_8(n):
 	whole_octal = octal_int + ["_"] + octal_dec
 
 	return whole_octal
-
-
-def base_10_to_16(n):
-	h = int(n)
-	l = []
-	while h > 0:
-		l.append(h%16)
-		h = h//16
-
-
-	return l[::-1]
-
 
 def base_10_to_16(n):
 	whole_n = int(n)
