@@ -1,4 +1,6 @@
-import math
+# Name: Bradley-Hans Desmornes 
+# Name : Mathew Al-Frenn
+# year 2024
 
 def base_10_to_2(n):
 	whole_n = int(n)
