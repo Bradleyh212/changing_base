@@ -20,10 +20,14 @@ def base_10_to_2(n):
 		binary_dec.append(int_n)
 		dec_n -= int_n
 
-	whole_binary = binary_int + ["_"] + binary_dec
-	whole_binary_v = [""]
+	whole_binary = binary_int + ["."] + binary_dec
+
+	string_whole_binary = ""
+	for i in whole_binary:
+		string_whole_binary += str(i)
 		
-	return whole_binary_v	
+	return string_whole_binary
+
 
 def base_10_to_8(n):
 	whole_n = int(n)
@@ -43,9 +47,14 @@ def base_10_to_8(n):
 		octal_dec.append(int_n)
 		dec_n -= int_n
 
-	whole_octal = octal_int + ["_"] + octal_dec
+	whole_octal = octal_int + ["."] + octal_dec
 
-	return whole_octal
+	string_whole_octal = ""
+	for i in whole_octal:
+		string_whole_octal += str(i)
+
+	return string_whole_octal
+
 
 def base_10_to_16(n):
 	whole_n = int(n)
@@ -65,9 +74,13 @@ def base_10_to_16(n):
 		heax_dec.append(int_n)
 		dec_n -= int_n
 
-	whole_hexa = hexa_int + ["_"] + heax_dec
+	whole_hexa = hexa_int + ["."] + heax_dec
 
-	return whole_hexa
+	string_whole_hexa = ""
+	for i in whole_hexa:
+		string_whole_hexa += str(i)
+
+	return string_whole_hexa
 
 
 
